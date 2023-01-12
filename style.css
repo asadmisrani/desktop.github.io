@@ -9,9 +9,7 @@ body {
     overflow-x: hidden;
 }
 
-.container {
-    margin: 52px 24px 0 24px;
-}
+.container { margin: 52px 24px 0 24px; }
 
 header {
     display: flex;
@@ -81,9 +79,7 @@ header a {
     margin: 0;
 }
 
-.headline li {
-    margin-right: 20px;
-}
+.headline li { margin-right: 20px; }
 
 .works {
     margin: 114px 24px 0 24px;
@@ -462,7 +458,7 @@ li.lead-d,
 li.uber-d,
 #image-d,
 .card-d { display: none; }
-
+}
 
 @media (min-width: 768px) {
 body { background-color: #e5e5e5; }
@@ -674,3 +670,4 @@ button:active {
 }
 
 button:hover { cursor: grab; }
+}
